@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style6.css">
+
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./image/logo.png" alt="secret Tasty logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="donate.html">Donate<img src="./image/flag.png" alt="flag"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Recipes</h1>
+        <div class="content">
+            <p>Let's make the most famous restaurant recipes <br>at home with the highest quality and lowest price
+                <br> It is always<span class="primary-text"> made with love.</span><img src="./image/heart.png"
+                    alt="heart">
+                <br>
+
+            </p>
+            <img src="./image/flag2.png" alt="flag">
+        </div>
+
+    </header>
+    <!--header end-->
+
+    <main>
+        <!--recipe start-->
+
+        <section id="recipe">
+            <div class="container">
+
+                <div class="recipe-content">
+                    <div class="grid-item">
+                        <a href="ice latte.html"><img src="./image/2.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="ice latte.html">
+                                <h3>Ice Latte</h3>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <a href="big mac.html"><img src="./image/3.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="big mac.html">
+                                <h3>Big Mac</h3>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="supreme.html"><img src="./image/4.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="supreme.html">
+                                <h3>Supreme</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <a href="latte2.html"><img src="./image/5.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="latte2.html">
+                                <h3>Caramel <br>Frappuccino</h3>
+                            </a>
+    
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <a href="mac2.html"><img src="./image/6.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="mac2.html">
+                                <h3>Mcdonald’s<br>
+                                    egg MCMuffinsc</h3>
+                            </a>
+    
+                        </div>
+                    </div>
+    
+                    <div class="grid-item">
+                        <a href="kfc2.html"><img src="./image/7.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="kfc2.html">
+                                <h3>KFC<br>
+                                    Fried chicken</h3>
+                            </a>
+                        </div>
+                    </div>
+    <div class="grid-item">
+                    <a href="latte3.html"><img src="./image/8.png" alt="picture not founded"></a>
+                    <div>
+                        <a href="latte3.html">
+                            <h3>iced White <br>
+                                chocolate moch</h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <a href="mac3.html"><img src="./image/9.png" alt="picture not founded"></a>
+                    <div>
+                        <a href="mac3.html">
+                            <h3>Mcdonald’s Bacon Ranch McCrispy</h3>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <a href="kfc3.html"><img src="./image/10.png" alt="picture not founded"></a>
+                    <div>
+                        <a href="kfc3.html">
+                            <h3>KFC honey<br>
+                                BBQ Wing</h3>
+                        </a>
+                    </div>
+                </div>
+
+                
+
+        </section>
+        <!--recipe end-->
+
+
+
+        <!--last start-->
+        <section id="last">
+          
+
+        </section>
+        <!--last end-->
+
+    </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; Top</button>
+    <script>
+    
+        let mybutton = document.getElementById("myBtn");
+    
+        
+        window.onscroll = function () {
+            scrollFunction();
+        }
+    
+        function scrollFunction() {
+            if ( document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    
+        function topFunction() {
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
+
+</body>
+
+</html>

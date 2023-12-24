@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style5.css">
+
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./image/logo.png" alt="secret Tasty logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="donate.html">Donate<img src="./image/flag.png" alt="flag"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1>Feedback</h1>
+
+  <form action="db.php" method="post">
+    <label for="tbox1">Name:</label>
+    <input id="tbox1" type="text" name="name1" maxlength="30" placeholder="your name" required />
+<br>
+    <label for="tbox2">Email:</label>
+    <input id="tbox2" type="email" name="email1" placeholder="your mail@gmail.com" required />
+<br>
+    <label for="tbox3">Feedback:</label>
+    <input id="tbox3" type="text" name="feedback1" maxlength="10000" placeholder="your opinion" required  />
+<br>
+    <button type="submit" name="btn1">Submit</button>
+
+    <button type="reset" name="btn2">Reset</button>
+  </form>
+<!--last start-->
+<section id="last">
+   
+
+</section>
+<!--last end-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; Top</button>
+<script>
+    
+    let mybutton = document.getElementById("myBtn");
+
+    
+    window.onscroll = function () {
+        scrollFunction();
+    }
+
+    function scrollFunction() {
+        if ( document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.documentElement.scrollTop = 0; 
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style2.css">
+
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./image/logo.png" alt="secret Tasty logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="donate.html">Donate<img src="./image/flag.png" alt="flag"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="aboutus">
+        <h1>About Us</h1>
+        <div class="content">
+
+
+            <p>
+                <span class="q1-text"> ARE YOU OK WITH KILLING INNOCENT<br> KIDS AND WOMEN IN PALESTINE...? </span>
+                <br><br><br><span class="primary-text">If you are ok keep buying from zionist brands.</span>
+                <br><br> <span class="secondary-text">If not, then you should get to know us,
+                    <br> We aim to fully encourage the boycott of Zionist brands ,
+                    <br> by providing special ingredients for their most famous foods and drinks.</span>
+            </p>
+
+            <img src="./image/1.png" alt="pic not found">
+
+
+        </div>
+    </div>
+
+    <!--last start-->
+    <section id="last">
+    
+
+    </section>
+    <!--last end-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; Top</button>
+    <script>
+    
+        let mybutton = document.getElementById("myBtn");
+    
+        
+        window.onscroll = function () {
+            scrollFunction();
+        }
+    
+        function scrollFunction() {
+            if ( document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    
+        function topFunction() {
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice latte</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style8.css">
+
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./image/logo.png" alt="secret Tasty logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="donate.html">Donate<img src="./image/flag.png" alt="flag"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Recipes</h1>
+
+        </div>
+        <section id="recipe">
+
+            <div class="title">
+                <h3>ice latte</h3>
+            </div>
+            <div class="ing-content">
+                <div>
+                    <ul>
+                        <br>
+                        <p><b>Ingredients</b></p><br>
+                        <li> Espresso </li>
+                        <li> Vanilla Syrup  </li>
+                        <li> 2&percnt; Milk </li>
+                        <li> Ice </li>
+                        <li> Whipped Cream &lpar;optional topping&rpar;  </li>
+                    </ul>
+                    <br>
+                    <ol>
+
+                        <li> Fill a glass with ice and add the vanilla syrup. </li>
+                        <li>  Add espresso. At room temperature or chilled would be best because hot expresso will melt the ice. </li>
+                        <li>  Pour milk and stir to combine.     </li>
+                        <li>  Top with whipped cream if desired.   </li>
+                        
+
+
+                    </ol>
+                </div>
+                <img src="./image/2.png" alt="pic">
+            </div>
+
+
+
+
+        </section>
+    </header>
+    <!--header end-->
+
+   
+
+         <!--last start-->
+         <section id="last">
+           
+
+        </section>
+        <!--last end-->
+
+    </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; Top</button>
+    <script>
+    
+        let mybutton = document.getElementById("myBtn");
+    
+        
+        window.onscroll = function () {
+            scrollFunction();
+        }
+    
+        function scrollFunction() {
+            if ( document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    
+        function topFunction() {
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
+
+</body>
+
+</html>

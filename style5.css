@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    
+    height: 115vh;
+    font-family: 'Quicksand' 'Montserrat', sans-serif, ;
+    background: url(./image/about.png) center center/cover no-repeat ;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar img {
+    width: 180px;
+    margin-left: 30px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 30px;
+}
+
+#navbar ul li a {
+    padding: 15px 55px;
+    color: white;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #ffc200;
+}
+
+#navbar ul li img {
+    width: 30px;
+    margin-left: 2px;
+    margin-top: 5px;
+
+
+}
+h1 {
+    color: #ffc200;
+    font-size: 150px;
+    font-family: the bigger the better;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+button {
+    background-color: #ffc200;
+width: fit-content;
+   color: black;
+    padding: 14px 20px;
+    margin: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 200px;
+  font-family: the bigger the better;
+    font-size: 50px;
+  }
+  input {
+    width: fit-content;
+    padding: 20px 90px;
+    margin-top: 90px;
+    display: inline-block;
+    border: 1px solid #ffc200;
+    box-sizing: border-box;
+    
+  }
+ 
+  label{
+    font-size: 50px;
+    font-family: the bigger the better;
+    margin-left: 50px;
+  }
+  /*last start*/
+
+#last {
+    margin-top: 100px;
+    height: 40vh;
+     background: url(./image/last2.png) center center/cover no-repeat;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /*last end*/
+ #myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc200; 
+    color: black; 
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:the bigger the better ;
+
+}
+
+#myBtn:hover {
+    background-color: #f1db93;
+}

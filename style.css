@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+
+body {
+    font-family: 'Quicksand' 'Montserrat', sans-serif, ;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px #ab8600ce;
+    background-color: #ffc200;
+
+}
+
+.btn-primary:hover {
+    background-color: #f1db93;
+}
+
+/*header start*/
+header {
+    height: 100vh;
+    background: url(./image/home.png) center center/cover no-repeat;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar img {
+    width: 180px;
+    margin-left: 30px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 30px;
+}
+
+#navbar ul li a {
+    padding: 15px 55px;
+    color: white;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #ffc200;
+}
+#navbar ul li img{
+    width: 30px;
+    margin-left: 2px;
+    margin-top: 5px;
+    
+
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+
+}
+
+header .content h1 {
+    color: #ffc200;
+    font-size: 150px;
+    font-family: the bigger the better;
+    margin-left: 500px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+header .content p {
+    margin-left: 500px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+header .content a {
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 10px;
+}
+
+img {
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+/*header end*/
+
+/*most viewd start*/
+#mostviewd {
+    height: 80vh;
+
+
+}
+
+#mostviewd .title {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 90px;
+    font-family:the bigger the better;
+}
+
+#mostviewd .mostviewd-content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#mostviewd .mostviewd-content img {
+    width: 180px;
+}
+
+#mostviewd .mostviewd-content a {
+    color: black;
+    font-family: mistral;
+    font-size: 50px;
+}
+
+#mostviewd .mostviewd-content a:hover {
+    color: #ffc200;
+}
+
+/*most viewd end*/
+
+/*donate start*/
+
+#donate {
+    height: 115vh;
+    background: url(./image/home2.png) center center/cover no-repeat;
+}
+
+#donate .container h3 {
+    color: #ffc200;
+    font-size: 90px;
+    font-family: the bigger the better;
+    margin-left: 500px;
+    padding-top: 300px;
+}
+
+#donate .container p {
+    margin-left: 550px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+#donate .container img {
+   width: 30px;
+}
+#donate .btn-secondary {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px #ab8600ce;
+    background-color: #ffc200;
+    margin-left: 550px;
+    margin-top: 40px;
+    
+}
+#donate .btn-secondary:hover {
+background-color: #f1db93;    
+}
+
+
+
+/*donate end*/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc200; 
+    color: black; 
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:the bigger the better ;
+
+}
+
+#myBtn:hover {
+    background-color: #f1db93;
+}

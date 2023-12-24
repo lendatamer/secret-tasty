@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style4.css">
+
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./image/logo.png" alt="secret Tasty logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="donate.html">Donate<img src="./image/flag.png" alt="flag"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="donate">
+        <h1>Donate!</h1>
+        <div class="content">
+
+
+            <p>
+                The<span class="primary-text"> power of change </span>lies in your hand.
+                <br>Turn your compassion into practical action
+                <br> by donating to<span class="secondary-text"> Palestine</span> and continuing the<span
+                    class="secondary-text"> boycott </span>now and forever
+                    <br><img src="./image/flag2.png" alt="flag">
+
+            </p>
+
+
+
+        </div>
+        <div class="ways">
+            <img src="./image/logo2.png" alt="pic not founded">
+            <p>
+                -Through a representative: Call <span class="primary-text">15322</span> (ext. 3) and leave the name,
+                address, mobile number, and amount and we will contact you within hours.
+                <br>
+                <br>
+                -Text message: Send a text message from any mobile phone to<span class="primary-text"> 9770</span> and
+                write Palestine (the value of the message is 5 pounds).
+                <br>
+                <br>
+                -Fawry: From anywhere that has a Fawry machine, code <span class="primary-text">99981</span>
+            </p>
+        </div>
+    </div>
+
+<!--last start-->
+<section id="last">
+
+</section>
+<!--last end-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; Top</button>
+<script>
+    
+    let mybutton = document.getElementById("myBtn");
+
+    
+    window.onscroll = function () {
+        scrollFunction();
+    }
+
+    function scrollFunction() {
+        if ( document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.documentElement.scrollTop = 0; 
+    }
+</script>
+</body>
+
+</html>

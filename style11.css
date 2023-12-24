@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Quicksand' 'Montserrat', sans-serif, ;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/*header start*/
+header {
+    height: 120vh;
+    background: url(./image/about.png) center center/cover no-repeat;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar img {
+    width: 180px;
+    margin-left: 30px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 30px;
+}
+
+#navbar ul li a {
+    padding: 15px 55px;
+    color: white;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #ffc200;
+}
+#navbar ul li img{
+    width: 30px;
+    margin-left: 2px;
+    margin-top: 5px;
+    
+
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: #ffc200;
+    font-size: 160px;
+    font-family: the bigger the better;
+    margin-left: 300px;
+  
+   
+}
+h3{
+font-family: the bigger the better;    
+font-weight: 700;
+text-decoration: underline;
+font-size: 100px;
+margin-top: 90px;
+margin-left: 30px;
+}
+#recipe .ing-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ing-content ul{
+margin-left: 60px;
+list-style: disc;
+font-size: 20px;}
+.ing-content ul p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ing-content img{
+    width: 300px;;
+    margin-right: 100px;
+    
+}
+.primary-text{
+    color: red;
+}
+.ing-content ol li {
+
+margin-left: 60px;
+font-size: 25px;}
+
+/*header end*/
+/*recipe start*/
+h4{
+    font-family: the bigger the better;    
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 80px;
+    margin-top: 1800px;
+    margin-left: 30px;
+    color: red;
+}
+
+ .ing-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+.ing-content img{
+    margin-bottom: 100px;
+}
+/*recipe end*/
+
+
+/*last start*/
+
+
+#last {
+    height: 40vh;
+     background: url(./image/last2.png) center center/cover no-repeat;
+ }
+
+/*last end*/
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc200; 
+    color: black; 
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:the bigger the better ;
+
+}
+
+#myBtn:hover {
+    background-color: #f1db93;
+}

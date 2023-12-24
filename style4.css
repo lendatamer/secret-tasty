@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    
+    height: 115vh;
+    font-family: 'Quicksand' 'Montserrat', sans-serif, ;
+    background: url(./image/about.png) center center/cover no-repeat ;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#navbar img {
+    width: 180px;
+    margin-left: 30px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 30px;
+}
+
+#navbar ul li a {
+    padding: 15px 55px;
+    color: white;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #ffc200;
+}
+
+#navbar ul li img {
+    width: 30px;
+    margin-left: 2px;
+    margin-top: 5px;
+
+
+}
+
+
+
+
+h1 {
+    color: #ffc200;
+    font-size: 150px;
+    font-family: the bigger the better;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+
+#donate .content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#donate  .content p {
+   text-align: center;
+   color: black;
+font-size: 30px;
+margin-top: 70px;
+}
+
+
+.primary-text{
+    color: red;
+}
+.secondary-text{
+    color: green;
+}
+
+#donate .ways{
+    display: flex;
+flex-direction: column;
+}
+#donate .ways img{
+    width: 400px;
+    
+}
+#donate .ways p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+/*last start*/
+
+#last {
+    margin-top: 100px;
+    height: 40vh;
+
+     background: url(./image/last2.png) center center/cover no-repeat;
+    
+      
+ }
+
+ /*last end*/
+ #myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc200; 
+    color: black; 
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:the bigger the better ;
+
+}
+
+#myBtn:hover {
+    background-color: #f1db93;
+}

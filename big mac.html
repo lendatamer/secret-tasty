@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>big mac</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style7.css">
+
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./image/logo.png" alt="secret Tasty logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="donate.html">Donate<img src="./image/flag.png" alt="flag"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Recipes</h1>
+
+        </div>
+        <section id="recipe">
+
+            <div class="title">
+                <h3>Big Mac</h3>
+            </div>
+            <div class="ing-content">
+                <div>
+                    <ul>
+                        <br>
+                        <p><b>Ingredients</b></p><br>
+
+                        <li>Ground meat </li>
+                        <li>Salt&amp;Pepper </li>
+                        <li>Butter </li>
+                        <li>American Cheese</li>
+                        <li>Minced Onion Pickle Slices </li>
+                        <li>Lettuce</li>
+                        <li><span class="primary-text">Special Sauce</span></li>
+                    </ul>
+                    <br>
+                    <ol>
+
+                        <li> You will first season the hamburger meat with salt and pepper.<br>
+                            Shape into 10 thin patties. Grill the patties to your liking. </li><br>
+                        <li> Spread butter on cut sides of the buns and add to grill until it browns slightly.<br>
+                            Make sure the middle bun to asts on each side. </li><br>
+                        <li> Add the secret sauce, lettuce, cheese, onions and one patty to the bottom bun.<br>
+                            Top it off with the middle bun. </li><br>
+                        <li> Then add the sauce. lettuce, pickles, onion and another patty to the middle bun.<br>
+                            Top with the top bun and you are all set. </li>
+
+
+                    </ol>
+                </div>
+                <img src="./image/11.png" alt="pic">
+            </div>
+
+
+
+
+        </section>
+    </header>
+    <!--header end-->
+
+    <main>
+
+
+        <div class="title">
+            <h4>Special Sauce</h4>
+        </div>
+        <div class="ing-content">
+            <div>
+                <ul>
+                    <br>
+                    <p><b>Ingredients</b></p><br>
+
+                    <li> Mayonnaise </li>
+                    <li>India Relish  </li>
+                    <li> Sugar </li>
+                    <li>Thousand Island Dressing  </li>
+                </ul>
+                <br>
+                <ol>
+
+                    <li> Simply stir all of the ingredients together in a small bowl.  </li>
+<li> Let sauce stand for 20 minutes before using it so all the flavors can co me together.   </li>
+
+
+
+
+                </ol>
+            </div>
+            <img src="./image/12.png" alt="pic">
+        </div>
+
+        </div>
+
+        <!--last start-->
+        <section id="last">
+          
+
+        </section>
+        <!--last end-->
+
+    </main>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; Top</button>
+    <script>
+    
+        let mybutton = document.getElementById("myBtn");
+    
+        
+        window.onscroll = function () {
+            scrollFunction();
+        }
+    
+        function scrollFunction() {
+            if ( document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    
+        function topFunction() {
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
+</body>
+
+</html>

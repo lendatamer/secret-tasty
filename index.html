@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Tasty</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--header start-->
+    <header>
+        <div id="navbar">
+            <img src="./image/logo.png" alt="secret Tasty logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="donate.html">Donate<img src="./image/flag.png" alt="flag"></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Secret Tasty</h1>
+            <p>Our site has many of restaurants recipes to help <br>you recreate your favorite restaurant meals.<br>
+                <br>Our website also helps us boycott food companies that support<br>
+                terrorism against our brothers in Palestine.<img src="./image/flag.png" alt="flag">
+            </p>
+
+            <a href="recipe.html" class="btn btn-primary"> Explore Now</a>
+
+        </div>
+
+    </header>
+    <!--header end-->
+    <main>
+        <!--Most viewd start-->
+        <section id="mostviewd">
+            <div class="container">
+                <div class="title">
+                    <h2>The Most viewd</h2>
+                </div>
+                <div class="mostviewd-content">
+                    <div>
+                        <a href="big mac.html"><img src="./image/3.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="big mac.html">
+                                <h3>BIG MAC</h3>
+                            </a>
+                            <p> Ground meat,Salt&Pepper,Butter,...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="ice latte.html"><img src="./image/2.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="ice latte.html">
+                                <h3>ICE LATTE</h3>
+                            </a>
+                            <p> Light brown sugar,Almond extract,Milk...</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="supreme.html"><img src="./image/4.png" alt="picture not founded"></a>
+                        <div>
+                            <a href="supreme.html">
+                                <h3>SUPREME</h3>
+                            </a>
+                            <p> Fried chicken,Salt&Pepper,Lettuce ....</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--Most viewd end-->
+
+        <!--donate start-->
+        <section id="donate">
+            <div class="container">
+                <h3>Homemade Taste</h3>
+                <p>Don't forget to donate to our brothers<br> in Palestine, as they need us now <br>more than ever.<img
+                        src="./image/flag.png" alt="flag">
+                </p>
+
+                <a href="donate.html" class="btn btn-secondary"> Donate Now</a>
+
+
+            </div>
+
+        </section>
+        <!--donate end-->
+
+    </main>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; Top</button>
+
+
+           
+<script>
+    
+    let mybutton = document.getElementById("myBtn");
+
+    
+    window.onscroll = function () {
+        scrollFunction();
+    }
+
+    function scrollFunction() {
+        if ( document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.documentElement.scrollTop = 0; 
+    }
+</script>
+</body>
+
+</html>
